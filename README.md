@@ -433,3 +433,21 @@ You can split terminals shown below, or just click between them as you like.
 | C01 | Consumer executed successfully!
 | C01 | ========================
 ```
+## Phase 2: Change Authorship
+-update ReadMe
+-update zensical.toml
+-update About section in GitHub
+
+## Phase 3: Read & Understand
+-read through all code and look for interesting pieces
+
+## Phase 4: Make a Technical Modification
+-Make a small change, then test by Run Python or Run Notebooks
+-In .env, update
+
+ === Producer settings ===
+
+Number of messages to produce before stopping.
+Default is 3 messages.
+PRODUCER_MESSAGE_COUNT=10
+
